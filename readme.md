@@ -1,11 +1,6 @@
-Here is a professional, **Hackathon-Ready README.md** for your GitHub repository. It includes clear setup instructions, an architecture overview, and a breakdown of the agentic workflow.
-
-You can copy-paste this directly into your `README.md` file.
-
----
 
 ```markdown
-# 🚀 Agentic AI Workforce: Automated RFP Response System
+#  Agentic AI Workforce: Automated RFP Response System
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-red)
@@ -16,28 +11,28 @@ You can copy-paste this directly into your `README.md` file.
 
 ---
 
-## 🧠 System Architecture
+##  System Architecture
 
 The system is built on a **Micro-Agent Architecture** orchestrated by **LangGraph**. It adheres to a strict "Separation of Concerns" where each agent has a specific domain of expertise.
 
 ### **The Agent Squad:**
-1.  **🕵️ Sales Agent (Acquisition):** * Scans web portals (Selenium) or ingests local PDFs.
+1.  ** Sales Agent (Acquisition):** * Scans web portals (Selenium) or ingests local PDFs.
     * Qualifies leads and extracts metadata (Deadlines, Authority).
-2.  **🔧 Technical Agent (RAG Engine):**
+2.  ** Technical Agent (RAG Engine):**
     * Uses **Retrieval Augmented Generation (RAG)** to search a local Vector Database (ChromaDB) of product datasheets.
     * Matches RFP requirements to the exact internal SKU with a confidence score.
     * *Powered by: Google Gemini 1.5 Flash + HuggingFace Embeddings.*
-3.  **💰 Pricing Agent (Semantic Logic):**
+3.  ** Pricing Agent (Semantic Logic):**
     * Uses a **Semantic Bridge (LLM)** to map technical descriptions to the internal Price List (SQLite).
     * Calculates precise Bill of Materials (BOM), Service Fees, and Margins.
-4.  **📝 Master Agent (Synthesis):**
+4.  ** Master Agent (Synthesis):**
     * Compiles the outputs into a professional, legally compliant Bid Proposal.
-5.  **👨‍💻 Human-in-the-Loop Cockpit:**
+5.  ** Human-in-the-Loop Cockpit:**
     * Allows engineering teams to review, refine, and provide feedback to agents before submission.
 
 ---
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 * Python 3.10 or higher
@@ -80,7 +75,7 @@ GOOGLE_API_KEY=your_actual_api_key_here
 
 ---
 
-## 🗄️ Database Initialization
+##  Database Initialization
 
 Before running the app, you must build the "Knowledge Bases" for the agents.
 
@@ -126,7 +121,7 @@ streamlit run app.py
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 ├── src/
@@ -150,7 +145,7 @@ streamlit run app.py
 
 ---
 
-## 🔮 Future Roadmap
+##  Future Roadmap
 
 * **Enterprise Deployment:** Containerize agents using Docker & Kubernetes.
 * **Feedback Learning:** Implement a reinforcement learning loop where human edits retrain the vector matching model.
@@ -163,5 +158,6 @@ streamlit run app.py
 This project is licensed under the MIT License.
 
 ```
+
 
 ```
