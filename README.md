@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-red)
 ![LangGraph](https://img.shields.io/badge/Orchestration-LangGraph-orange)
-![Gemini](https://img.shields.io/badge/AI-Gemini%201.5%20Flash-green)
+![Gemini](https://img.shields.io/badge/AI-Gemini%202.5%20Flash-green)
 
 **An autonomous multi-agent system that revolutionizes the B2B Procurement process.** This project deploys a squad of specialized AI Agents to autonomously find, analyze, and respond to complex Government Tenders (RFPs) with human-level accuracy and machine-level speed.
 
