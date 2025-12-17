@@ -20,7 +20,7 @@ The system is built on a **Micro-Agent Architecture** orchestrated by **LangGrap
 2.  ** Technical Agent (RAG Engine):**
     * Uses **Retrieval Augmented Generation (RAG)** to search a local Vector Database (ChromaDB) of product datasheets.
     * Matches RFP requirements to the exact internal SKU with a confidence score.
-    * *Powered by: Google Gemini 1.5 Flash + HuggingFace Embeddings.*
+    * *Powered by: Google Gemini 2.5 Flash + HuggingFace Embeddings.*
 3.  ** Pricing Agent (Semantic Logic):**
     * Uses a **Semantic Bridge (LLM)** to map technical descriptions to the internal Price List (SQLite).
     * Calculates precise Bill of Materials (BOM), Service Fees, and Margins.
