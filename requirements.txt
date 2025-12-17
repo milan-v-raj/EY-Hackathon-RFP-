@@ -1,0 +1,25 @@
+# --- AI & Orchestration ---
+langchain
+langchain-community
+langchain-google-genai
+langgraph
+langchain-core
+
+# --- Database & Embeddings ---
+chromadb
+sentence-transformers
+
+# --- Data Processing ---
+pandas
+pypdf
+
+# --- Web Scraping & Browser Automation ---
+selenium
+webdriver-manager
+feedparser
+
+# --- Dashboard & UI ---
+streamlit
+
+# --- Utilities ---
+python-dotenv
